@@ -1,0 +1,80 @@
+{
+  "Challenges": [
+    {
+      "name": "Build Your Own wc Tool",
+      "url": "https://codingchallenges.fyi/challenges/challenge-wc"
+    },
+    {
+      "name": "Build Your Own JSON Parser",
+      "url": "https://codingchallenges.fyi/challenges/challenge-json-parser"
+    },
+    {
+      "name": "Build Your Own Compression Tool",
+      "url": "https://codingchallenges.fyi/challenges/challenge-huffman"
+    },
+    {
+      "name": "Build Your Own cut Tool",
+      "url": "https://codingchallenges.fyi/challenges/challenge-cut"
+    },
+    {
+      "name": "Build You Own Load Balancer",
+      "url": "https://codingchallenges.fyi/challenges/challenge-load-balancer"
+    },
+    {
+      "name": "Build Your Own Sort Tool",
+      "url": "https://codingchallenges.fyi/challenges/challenge-sort"
+    },
+    {
+      "name": "Build Your Own Calculator",
+      "url": "https://codingchallenges.fyi/challenges/challenge-calculator"
+    },
+    {
+      "name": "Build Your Own Redis Server",
+      "url": "https://codingchallenges.fyi/challenges/challenge-redis"
+    },
+    {
+      "name": "Build Your Own grep",
+      "url": "https://codingchallenges.fyi/challenges/challenge-grep"
+    },
+    {
+      "name": "Build Your Own uniq Tool",
+      "url": "https://codingchallenges.fyi/challenges/challenge-uniq"
+    },
+    {
+      "name": "Build Your Own Web Server",
+      "url": "https://codingchallenges.fyi/challenges/challenge-webserver"
+    },
+    {
+      "name": "Build Your Own URL Shortener",
+      "url": "https://codingchallenges.fyi/challenges/challenge-url-shortener"
+    },
+    {
+      "name": "Build Your Own diff Tool",
+      "url": "https://codingchallenges.fyi/challenges/challenge-diff"
+    },
+    {
+      "name": "Build Your Own Shell",
+      "url": "https://codingchallenges.fyi/challenges/challenge-shell"
+    },
+    {
+      "name": "Build Your Own cat Tool",
+      "url": "https://codingchallenges.fyi/challenges/challenge-cat"
+    },
+    {
+      "name": "Build Your Own IRC Client",
+      "url": "https://codingchallenges.fyi/challenges/challenge-irc"
+    },
+    {
+      "name": "Build Your Own Memcached Server",
+      "url": "https://codingchallenges.fyi/challenges/challenge-memcached"
+    },
+    {
+      "name": "Build Your Own Spotify Client",
+      "url": "https://codingchallenges.fyi/challenges/challenge-spotify"
+    },
+    {
+      "name": "Build Your Own Discord Bot ",
+      "url": "https://codingchallenges.fyi/challenges/challenge-discord/"
+    }
+  ]
+}
