@@ -4,27 +4,19 @@ import (
 	"bytes"
 	"encoding/json"
 	"io"
-	"log/slog"
 	"os"
 
 	"github.com/PuerkitoBio/goquery"
 )
 
-func errCheck(process string, err error) {
-	if err != nil {
-		slog.Error(process+" failed with ", err)
-	}
-}
-
-func decodeFromReader(r io.Reader) (*challenges, error) {
-	var res *challenges
+func decodeFromReader(r io.Reader, res interface{}) error {
 
 	dec := json.NewDecoder(r)
 	err := dec.Decode(&res)
 	if err != nil {
-		return nil, err
+		return err
 	}
-	return res, nil
+	return nil
 
 }
 
@@ -44,7 +36,7 @@ func extractTitle(r io.Reader) (string, error) {
 }
 
 func updateDataset(filepath string, newData challenge) error {
-	var listOfChallenges *challenges
+	var listOfChallenges challenges
 	f, err := os.ReadFile(filepath)
 	if err != nil {
 		return err
@@ -52,7 +44,7 @@ func updateDataset(filepath string, newData challenge) error {
 
 	r := bytes.NewBuffer(f)
 
-	listOfChallenges, err = decodeFromReader(r)
+	err = decodeFromReader(r, &listOfChallenges)
 	if err != nil {
 		return err
 	}
