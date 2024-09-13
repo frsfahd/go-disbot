@@ -1,0 +1,7 @@
+README.md
+tmp
+.vscode
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
