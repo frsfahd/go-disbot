@@ -26,6 +26,7 @@ go.work.sum
 
 tmp/
 
+.github
 .vscode
 .env*
 .flaskenv*
